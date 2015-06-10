@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var streamer = ["piecedigital", "freecodecamp", "riotgames", "asiaamore", "gbay99", "crank", "prestigestudios", "bgcallisto", "cillaid"];
+  var streamer = ["piecedigital", "freecodecamp", "riotgames", "asiaamore", "gbay99", "c9sneaky", "prestigestudios", "brokengamezhd", "cillaid", "trick2g", "snowlit", "ugclive", "thehaleybaby"];
   streamer.map(function(elem) {
     // console.log(elem);
     $.ajax({
@@ -214,4 +214,11 @@ $(document).ready(function() {
     $("#embed-area #video").html("");
     $("#embed-area #chat").html("");
   }
+  // search box
+  $("#search").on("submit", function() {
+    var searchQuery = $(this).serializeArray()[0];
+    console.log(searchQuery);
+    window.open("https://google.com/search?q=" + searchQuery.value);
+    return false;
+  });
 });
