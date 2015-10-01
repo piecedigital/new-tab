@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var originalTitle = "Custom New Tab";
 
-  var streamer = ["piecedigital", "freecodecamp", "riotgames", "asiaamore", "gbay99", "c9sneaky", "prestigestudios", "brokengamezhd", "cillaid", "trick2g", "snowlit", "ugclive", "thehaleybaby", "jennythesquirrel", "namnamsian"];
+  var streamer = ["freecodecamp", "riotgames", "asiaamore", "gbay99", "c9sneaky",  "brokengamezhd", "cillaid", "trick2g", "snowlit", "thehaleybaby", "jennythesquirrel", "namnamsian", "frommaplestreet", "renegademaria", "lolnatsumiii", "rflegendary", "shelbyrenae", "aphromoo", "beanietanneh", "lolgeranimo", "aplatypuss", "lilchiipmunk", "ohnips"];
   function listSteamers() {
     $("#user-list").html("");
     streamer.map(function(elem) {

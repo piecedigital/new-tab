@@ -8,6 +8,8 @@ angular.module("listApp", [])
 		{text: "Quora", url: "http://quora.com/"},
 		{text: "FCC Gitter", url: "http://gitter.im/freecodecamp/freecodecamp"},
 		{text: "Code Newbie Slack", url: "http://codenewbie.slack.com/"},
+		{text: "Program in Person Slack", url: "http://programinperson.slack.com/"},
+		{text: "Squarefront Slack", url: "http://talksquarespace.slack.com/"},
 		{text: "Github", url: "http://github.com/"},
 		{text: "Linkedin", url: "http://linkedin.com/"},
 		{text: "Free Code Camp", url: "http://freecodecamp.com/"},
