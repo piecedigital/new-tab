@@ -15,5 +15,5 @@ angular.module("listApp", [])
 		{text: "GMail - PDS", url: "https://mail.google.com/mail/u/0/"},
 		{text: "GMail - Trash", url: "https://mail.google.com/mail/u/1/"},
 		{text: "Spotify", url: "https://spotify.com"},
-		{test: "Iron Squad", url: "https://ironsquad.slack.com"}];
+		{text: "Iron Squad", url: "https://ironsquad.slack.com"}];
 	});
