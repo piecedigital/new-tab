@@ -6,7 +6,6 @@ angular.module("listApp", [])
 		{text: "Facebook", url: "http://facebook.com/"},
 		{text: "Twitter", url: "http://twitter.com/"},
 		{text: "Quora", url: "http://quora.com/"},
-		{text: "FCC Gitter", url: "http://gitter.im/freecodecamp/freecodecamp"},
 		{text: "Code Newbie Slack", url: "http://codenewbie.slack.com/"},
 		{text: "Program in Person Slack", url: "http://programinperson.slack.com/"},
 		{text: "Squarefront Slack", url: "http://talksquarespace.slack.com/"},
